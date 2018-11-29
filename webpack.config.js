@@ -1,5 +1,5 @@
-const webpack = require('webpack');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+const webpack = require('webpack')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
   entry: './client/index.js',
@@ -25,4 +25,4 @@ module.exports = {
       template: 'client/index.html'
     })
   ]
-};
+}
